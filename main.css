@@ -16,7 +16,7 @@
     --font-family-secondary: 'Montserrat', sans-serif;
     --font-size: 1rem;
     --fs-xxl: 3.5rem;
-    --fs-xl: 3.2rem;
+    --fs-xl: 3rem;
     --primary-color: #5E239D;
     --secodary-color: #002;
 }
@@ -103,7 +103,7 @@ nav {
 }
 
 .hero-section {
-    padding-top: 98px;
+    padding-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -196,6 +196,58 @@ nav {
     font-size: var(--font-size);
     font-weight: 700;
 }
+
+.second-section{
+    padding: 200px 80px 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+}
+
+.second-textarea {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+
+    & h2 {
+        font-family: var(--font-family-main);
+        font-size: var(--fs-xl);
+        color: var(--secodary-color);
+        font-weight: 700;
+    }
+
+    & p {
+        font-family: var(--font-family-secondary);
+        font-size: var(--font-size);
+        font-weight: 700;
+        color: var(--secodary-color);
+        max-width: 415px;
+        line-height: 175.4%;
+        
+    }
+}
+
+.contact1 {
+    font-family: var(--font-family-secondary);
+    font-weight: 700;
+    font-size: var(--font-size);
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: #ffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 3px #5E239D;
+    max-width: fit-content;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -473,7 +525,7 @@ nav {
     }
 
     .girl-image {
-        margin-left:-25px;
+        margin-left: -25px;
     }
 
 
