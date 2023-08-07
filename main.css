@@ -26,6 +26,10 @@
 body {
     background: #FBFAFE;
     overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     /* max-width: 1120px;
     margin: 0 auto; */
 
@@ -33,8 +37,9 @@ body {
 }
 
 nav {
-    position: fixed;
-    width: 100%;
+    position: sticky;
+    top: 0;
+    /* width: 100%; */
     background-color: #FBFAFE;
 }
 
@@ -43,7 +48,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     font-family: var(--font-family-main);
-    padding: 25px 100px;
+    padding: 25px 90px;
 
 }
 
@@ -88,24 +93,19 @@ nav {
 }
 
 
-.main-section {
-    display: flex;
-    /* align-items: flex-start; */
-    justify-content: center;
-    flex-direction: column;
-}
+
 
 .main-hero-section {
     padding: 0px 100px;
-
-}
-
-.navhero {
     /* height: 100vh; */
+    padding-top: 10px;
+
 }
+
+
 
 .hero-section {
-    padding-top: 100px;
+    /* padding-top: 100px; */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -248,7 +248,7 @@ nav {
 }
 
 .third-section {
-    padding: 70px 100px 0px;
+    padding: 100px 100px 0px;
 }
 
 .third-heading {
@@ -292,7 +292,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 100px 0px;
+    padding: 130px 100px 0px;
 }
 
 .fourth-textarea {
@@ -322,7 +322,7 @@ nav {
         max-width: 420px;
     }
 
-    & a{
+    & a {
         font-family: var(--font-family-secondary);
         font-weight: 700;
         font-size: var(--font-size);
@@ -334,6 +334,52 @@ nav {
     }
 }
 
+
+.fifth-text {
+    padding: 100px 80px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+
+    & h2 {
+        text-align: center;
+        color: var(--secodary-color);
+        font-family: var(--font-family-main);
+        font-size: var(--fs-xl);
+        font-weight: 700;
+    }
+
+    & p {
+        text-align: center;
+        padding-top: 20px;
+        color: var(--secodary-color);
+        font-family: var(--font-family-secondary);
+        font-size: var(--font-size);
+        font-weight: 700;
+        line-height: 175.4%;
+    }
+
+    & a {
+        font-family: var(--font-family-secondary);
+        font-weight: 700;
+        font-size: var(--font-size);
+        padding: 10px 20px;
+        background: var(--primary-color);
+        color: #ffff;
+        border-radius: 8px;
+        box-shadow: 0px 0px 4px 3px #5E239D;
+    }
+}
+
+.route-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 
 
 
@@ -395,15 +441,16 @@ nav {
         width: 270px;
     }
 
-    .fourth-section{
+    .fourth-section {
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
         flex-direction: column-reverse;
     }
 
-    .fourth-textarea{
+    .fourth-textarea {
         align-items: flex-end;
+
         & h2 {
             text-align: right;
             max-width: 570px;
@@ -465,15 +512,16 @@ nav {
         width: 270px;
     }
 
-    .fourth-section{
+    .fourth-section {
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
         flex-direction: column-reverse;
     }
 
-    .fourth-textarea{
+    .fourth-textarea {
         align-items: flex-end;
+
         & h2 {
             text-align: right;
             max-width: 570px;
@@ -583,15 +631,16 @@ nav {
         width: 270px;
     }
 
-    .fourth-section{
+    .fourth-section {
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
         flex-direction: column-reverse;
     }
 
-    .fourth-textarea{
+    .fourth-textarea {
         align-items: flex-end;
+
         & h2 {
             text-align: right;
             max-width: 570px;
@@ -723,15 +772,16 @@ nav {
         gap: 20px;
     }
 
-    .fourth-section{
+    .fourth-section {
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
         flex-direction: column-reverse;
     }
 
-    .fourth-textarea{
+    .fourth-textarea {
         align-items: flex-end;
+
         & h2 {
             text-align: right;
             max-width: 570px;
@@ -744,7 +794,7 @@ nav {
         }
     }
 
-    .Children img{
+    .Children img {
         width: 450px;
     }
 }
@@ -877,15 +927,16 @@ nav {
         }
     }
 
-    .fourth-section{
+    .fourth-section {
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
         flex-direction: column-reverse;
     }
 
-    .fourth-textarea{
+    .fourth-textarea {
         align-items: center;
+
         & h2 {
             text-align: center;
             max-width: none;
@@ -898,7 +949,7 @@ nav {
         }
     }
 
-    .Children img{
+    .Children img {
         width: 100%;
     }
 }
@@ -929,10 +980,11 @@ nav {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .nav-padding{
+    .nav-padding {
         justify-content: center;
         gap: 50px;
     }
+
     .contact a {
         display: none;
     }
@@ -1007,12 +1059,13 @@ nav {
         /* padding-top: 320px; */
     }
 
-    .second-textarea  {
+    .second-textarea {
         align-items: center;
-        & p{
+
+        & p {
             max-width: none;
         }
-       
+
     }
 
     .baby-image img {
@@ -1038,15 +1091,16 @@ nav {
         }
     }
 
-    .fourth-section{
+    .fourth-section {
         flex-wrap: wrap;
         justify-content: center;
         gap: 30px;
         flex-direction: column-reverse;
     }
 
-    .fourth-textarea{
+    .fourth-textarea {
         align-items: center;
+
         & h2 {
             text-align: center;
             max-width: none;
@@ -1059,7 +1113,7 @@ nav {
         }
     }
 
-    .Children img{
+    .Children img {
         width: 100%;
     }
 
@@ -1074,7 +1128,7 @@ nav {
     .third-section {
         padding: 70px 50px 0px;
     }
-    
+
     .fourth-section {
         padding: 100px 50px 0px;
     }
