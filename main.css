@@ -44,9 +44,9 @@ nav {
     z-index: 7;
 }
 
-.main{
+/* .main {
     height: 100vh;
-}
+} */
 
 .nav-padding {
     display: flex;
@@ -442,7 +442,7 @@ nav {
 }
 
 
-.textt h3{
+.textt h3 {
     color: var(--secodary-color);
     text-align: center;
     font-family: var(--font-family-secondary);
@@ -450,7 +450,7 @@ nav {
     font-weight: 700;
 }
 
-.textt p{
+.textt p {
     color: var(--secodary-color);
     text-align: center;
     font-family: var(--font-family-secondary);
@@ -461,21 +461,37 @@ nav {
 
 }
 
-.textp{
+.textp {
     max-width: 510px;
 }
+
 .rectangle {
     width: 1180px;
     height: 508px;
     border-radius: 50px;
     background: #EFFAFC;
     position: absolute;
-    z-index:  -2;
+    z-index: -2;
     top: 190px;
     left: 85px;
 }
-.girloncarpet{
+
+.girloncarpet {
     padding-left: 40px;
+}
+
+.wethink p {
+    color: var(--secodary-color);
+    font-family: var(--font-family-secondary);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 175.4%;
+}
+
+footer{
+    display: flex;
+    padding: 90px 80px 20px 80px;
+    justify-content: space-between;
 }
 
 
