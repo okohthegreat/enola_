@@ -44,6 +44,10 @@ nav {
     z-index: 7;
 }
 
+.main{
+    height: 100vh;
+}
+
 .nav-padding {
     display: flex;
     align-items: center;
