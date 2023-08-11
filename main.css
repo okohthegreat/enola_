@@ -17,6 +17,8 @@
     --font-size: 1rem;
     --fs-xxl: 3.5rem;
     --fs-xl: 3rem;
+    --fs-sm: 0.9rem;
+    --fs-l: 2.2rem;
     --primary-color: #5E239D;
     --secodary-color: #002;
 }
@@ -446,7 +448,7 @@ nav {
     color: var(--secodary-color);
     text-align: center;
     font-family: var(--font-family-secondary);
-    font-size: 40px;
+    font-size: var(--fs-l);
     font-weight: 700;
 }
 
@@ -454,7 +456,7 @@ nav {
     color: var(--secodary-color);
     text-align: center;
     font-family: var(--font-family-secondary);
-    font-size: 14px;
+    font-size: var(--fs-sm);
     font-weight: 700;
     line-height: 175.4%;
     max-width: 95px;
@@ -488,10 +490,11 @@ nav {
     line-height: 175.4%;
 }
 
-footer{
+footer {
     display: flex;
     padding: 90px 80px 20px 80px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
@@ -574,6 +577,9 @@ footer{
         }
     }
 
+    .sixth-section{
+        display: none;
+    }
 
 
 }
@@ -645,6 +651,46 @@ footer{
             max-width: none;
             text-align: right;
         }
+    }
+
+    /* .girloncarpet img {
+        width: 750px;
+    }
+
+    .rectangle {
+        width: 870px;
+        height: 380px;
+        border-radius: 50px;
+        background: #EFFAFC;
+        position: absolute;
+        z-index: -2;
+        top: 130px;
+        left: 80px;
+    }
+
+    .sixth-textarea h2 {
+        font-size: 2.4rem;
+
+    }
+
+    .sixth-textarea {
+        margin-left: -480px;
+        gap: 15px;
+        margin-top: -55px;
+    }
+
+    .textt h3 {
+        font-size: 2rem;
+    }
+
+
+    .sixth-textarea p {
+        font-size: 14px;
+    } */
+
+    
+    .sixth-section{
+        display: none;
     }
 }
 
@@ -765,6 +811,26 @@ footer{
 
     .route-cards img {
         width: 270px;
+    }
+
+    .girloncarpet img {
+        width: 750px;
+    }
+
+    .rectangle {
+        width: 870px;
+        height: 380px;
+        border-radius: 50px;
+        background: #EFFAFC;
+        position: absolute;
+        z-index: -2;
+        top: 190px;
+        left: 85px;
+    }
+
+    
+    .sixth-section{
+        display: none;
     }
 }
 
@@ -914,6 +980,11 @@ footer{
 
     .route-cards img {
         width: 200px;
+    }
+
+    
+    .sixth-section{
+        display: none;
     }
 }
 
@@ -1098,6 +1169,11 @@ footer{
 
     .fifth-section {
         padding: 100px 80px;
+    }
+
+    
+    .sixth-section{
+        display: none;
     }
 }
 
@@ -1287,6 +1363,11 @@ footer{
 
     .fifth-section {
         padding: 100px 80px;
+    }
+
+    
+    .sixth-section{
+        display: none;
     }
 
 
