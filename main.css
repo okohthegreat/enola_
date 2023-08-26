@@ -485,7 +485,7 @@ nav {
 .wethink p {
     color: var(--secodary-color);
     font-family: var(--font-family-secondary);
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 175.4%;
 }
@@ -508,7 +508,7 @@ footer {
 
 
 /*responsiveness*/
-@media screen and (max-width:4000px) and (min-width:1500px) {
+@media screen and (max-width:6000px) and (min-width:1500px) {
     nav{
         width: 1440px;
     }
